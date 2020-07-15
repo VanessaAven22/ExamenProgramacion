@@ -49,7 +49,7 @@ namespace EXAMENPROG2
 
         public override string ToString()
         {
-            return $"Nombre: {this.nombred} Edad: {this.edad} Identificacion: {this.num_id} Telefono: {this.num_tef} \n";
+            return $"Nombre: {this.nombred} Edad: {this.edad} Identificacion: {this.num_id} Telefono: {this.num_tef}";
         }
 
 

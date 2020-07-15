@@ -49,7 +49,7 @@ namespace EXAMENPROG2
         
         public override string ToString()
         {
-            return $"Fecha Inicio: {this.fecha_In} Fecha Final: {this.fecha_fin} Descripcion: {this.descripcion} \n";
+            return $"Fecha Inicio: {this.fecha_In} Fecha Final: {this.fecha_fin} Descripcion: {this.descripcion}";
         }
     }
 }

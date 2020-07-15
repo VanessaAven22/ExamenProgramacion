@@ -11,3 +11,16 @@ C:\Users\hp\Desktop\EXAMENPROG\EXAMENPROG2\obj\Debug\netcoreapp3.1\EXAMENPROG2.c
 C:\Users\hp\Desktop\EXAMENPROG\EXAMENPROG2\obj\Debug\netcoreapp3.1\EXAMENPROG2.dll
 C:\Users\hp\Desktop\EXAMENPROG\EXAMENPROG2\obj\Debug\netcoreapp3.1\EXAMENPROG2.pdb
 C:\Users\hp\Desktop\EXAMENPROG\EXAMENPROG2\obj\Debug\netcoreapp3.1\EXAMENPROG2.genruntimeconfig.cache
+D:\Repos\VS\ExamenProgramacion\bin\Debug\netcoreapp3.1\EXAMENPROG2.exe
+D:\Repos\VS\ExamenProgramacion\bin\Debug\netcoreapp3.1\EXAMENPROG2.deps.json
+D:\Repos\VS\ExamenProgramacion\bin\Debug\netcoreapp3.1\EXAMENPROG2.runtimeconfig.json
+D:\Repos\VS\ExamenProgramacion\bin\Debug\netcoreapp3.1\EXAMENPROG2.runtimeconfig.dev.json
+D:\Repos\VS\ExamenProgramacion\bin\Debug\netcoreapp3.1\EXAMENPROG2.dll
+D:\Repos\VS\ExamenProgramacion\bin\Debug\netcoreapp3.1\EXAMENPROG2.pdb
+D:\Repos\VS\ExamenProgramacion\obj\Debug\netcoreapp3.1\EXAMENPROG2.csprojAssemblyReference.cache
+D:\Repos\VS\ExamenProgramacion\obj\Debug\netcoreapp3.1\EXAMENPROG2.AssemblyInfoInputs.cache
+D:\Repos\VS\ExamenProgramacion\obj\Debug\netcoreapp3.1\EXAMENPROG2.AssemblyInfo.cs
+D:\Repos\VS\ExamenProgramacion\obj\Debug\netcoreapp3.1\EXAMENPROG2.csproj.CoreCompileInputs.cache
+D:\Repos\VS\ExamenProgramacion\obj\Debug\netcoreapp3.1\EXAMENPROG2.dll
+D:\Repos\VS\ExamenProgramacion\obj\Debug\netcoreapp3.1\EXAMENPROG2.pdb
+D:\Repos\VS\ExamenProgramacion\obj\Debug\netcoreapp3.1\EXAMENPROG2.genruntimeconfig.cache

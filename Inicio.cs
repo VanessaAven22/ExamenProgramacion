@@ -24,18 +24,39 @@ namespace EXAMENPROG2
 
             List<Periodo> per = new List<Periodo>();
             per.Add(new Periodo(new DateTime(2020, 4, 15), new DateTime(2020, 8, 15), "I cuatrimestre",curs.GetRange(0,3)));
+            per.Add(new Periodo(new DateTime(2020, 4, 15), new DateTime(2020, 8, 15), "II cuatrimestre", new List<Curso>{curs[3]}));
 
-            Console.WriteLine("Ingrese el periodo para ver los cursos disponibles");
-            int prd = Convert.ToInt32(Console.ReadLine());
+            int prd = 0;
+            do
+            {
+                Console.WriteLine("Ingrese el periodo para ver los cursos disponibles");
+
+                for (int i = 0; i < per.Count; i++)
+                {
+                    Console.WriteLine($"{i}. {per[i].ToString()}");
+                }
+
+                prd = Convert.ToInt32(Console.ReadLine());
+            } while (prd >= per.Count || prd < 0);
+
+
             Periodo p1 = per[prd];
 
+            Console.WriteLine("Cursos del Período");
 
+            foreach(var c in p1.Curs_disp)
+            {
+                Console.WriteLine(c.ToString());
+            }
 
+            Console.WriteLine();
 
+            Console.WriteLine("Docentes disponibles");
 
-
-
-
+            foreach (var c in p1.Curs_disp)
+            {
+                Console.WriteLine(c.Docente.ToString());
+            }
 
             Console.WriteLine("Digite el numero de identificación");
             string id_ma = Console.ReadLine();
@@ -56,27 +77,29 @@ namespace EXAMENPROG2
                 }              
             }
 
-            
+
+            Console.WriteLine();
 
 
 
-
-
+            Console.WriteLine("Docentes");
             foreach (var d in doc)
             {
                 Console.WriteLine(d.ToString());
             }
-
+            Console.WriteLine("Cursos");
+            Console.WriteLine();
             foreach (var c in curs)
             {
                 Console.WriteLine(c.ToString());
             }
-
+            Console.WriteLine("Periodos");
+            Console.WriteLine();
             foreach (var pr in per)
             {
                 Console.WriteLine(pr.ToString());
             }
-
+            Console.WriteLine();
 
 
 
